@@ -1,0 +1,22 @@
+.Header {
+    flex: auto;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #DB9316;
+    height: 65px;
+}
+
+.Header h1{
+    color: #735911;
+    margin: 0px;
+    font-size: 30px;
+}
+.Header h4{
+    color: #735911;
+    margin: 0px;
+    font-size: 10px;
+}
