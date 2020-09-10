@@ -5,4 +5,8 @@
     width: 100%;
     align-items: center;
     flex-direction: column;
+    background-color: #DB9316;
+    height: 50px;
+}
+.Footer h3{
 }

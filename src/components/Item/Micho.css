@@ -1,0 +1,36 @@
+.Micho {
+    display: flex;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.Micho-header{
+    display: flex;
+    background-color: indigo;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.Micho div h2{
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.Micho-view{
+    display: flex;
+    background-color: lavender;
+    height: 300px;
+    align-items: center;
+}
+
+.Michos-img{
+    border-radius: 5px;
+    margin: 20px;
+    max-width: 100%;
+    max-height: 250px;
+}

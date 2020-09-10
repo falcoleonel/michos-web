@@ -4,8 +4,12 @@
   text-align: center;
   justify-content: flex-start;
   padding-top: 60px;
+  
+  min-width: 320px;
+  min-height: 320px;
 }
 
 .Content {
   display: block;
+  margin-bottom: 60px;
 }

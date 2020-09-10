@@ -1,0 +1,34 @@
+[
+    {
+        "name":"lilith",
+        "images":[
+            "lilith-1.jpg",
+            "lilith-2.jpg",
+            "lilith-3.jpg",
+            "lilith-4.jpg",
+            "lilith-5.jpg"
+        ]
+    },
+    {
+        "name":"diamond",
+        "images":[
+            "diamond-1.jpg",
+            "diamond-2.jpg",
+            "diamond-3.jpg",
+            "diamond-4.jpg",
+            "diamond-5.jpg",
+            "diamond-6.jpg",
+            "diamond-7.jpg"
+        ]
+    },
+    {
+        "name":"princesa",
+        "images":[
+            "princesa-1.jpg",
+            "princesa-2.jpg",
+            "princesa-3.jpg",
+            "princesa-4.jpg",
+            "princesa-5.jpg"
+        ]
+    }
+]

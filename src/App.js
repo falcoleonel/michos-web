@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React, {useEffect, useState} from 'react';
+
 import './App.css';
 
 import Header from './components/Header'
 import Banner from './components/Banner'
 import Footer from './components/Footer'
+import Micho from './components/Item/Micho'
+import data from './assets/michos.json'
 
 function App() {
-
-  const marray = [1,2,3];
-
+  
   return (
     <div className="App">
       {/* Header */}
@@ -17,7 +18,9 @@ function App() {
       <Banner/>
       {/* Content */}
       <div className="Content">
-        <h1>Aquí va el contenido</h1>
+        {
+          data.map(micho => <Micho key={micho.name} Images={micho.images} Name={micho.name}/>)
+        }
       </div>
       {/* Footer */}
       <Footer/>
